@@ -1,0 +1,45 @@
+
+#item-editing{
+    position: absolute;
+    width: 90vw;
+    min-height: 90vh;
+    background-color: rgb(192, 192, 192);
+    border-radius: 25px;
+    top: 5vh;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    /*
+    align-self: center;
+    min-width: 500px;
+    min-height: 500px;
+    
+    */
+}
+
+#close-btn{
+    align-self: flex-end;
+    cursor: pointer;
+    margin: 12px;
+}
+
+#close-btn:hover{
+    color: red;
+}
+
+#item-img{
+    align-self: center;
+    width: 280px;
+    height: 280px;
+    border-radius: 30px;
+    object-fit: cover;
+    border-style: solid;
+}
+
+#form-editing{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    padding: 6px;
+}      

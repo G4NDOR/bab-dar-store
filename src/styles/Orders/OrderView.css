@@ -1,0 +1,60 @@
+
+#order-view{
+    position: absolute;
+    width: 90vw;
+    min-height: 90vh;
+    background-color: rgb(192, 192, 192);
+    border-radius: 25px;
+    top: 5vh;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.order-el{
+    align-self: center;
+    width: 95%;
+    max-width: 500px;
+    margin-bottom: 6px;
+    padding: 6px 2.5% 6px 2.5%;
+    display: flex;
+    justify-content: space-between;
+    border-top-style: solid;
+}
+
+#order-view > h3{
+    align-self: center;
+}
+
+#order-view > p{
+    align-self: center;
+    width: 95%;
+    padding: 2.5%;
+    max-width: 500px;
+}
+
+#order-ready-btn{
+    align-self: center;
+    margin: 12px;
+}
+
+#order-accepted-btn{
+    align-self: center;
+    margin: 12px;
+}
+
+.order-item{
+    align-self: center;
+    width: 95%;
+    max-width: 500px;
+    padding: 2.5%;
+    margin: 6px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: gray;
+    position: relative;
+}      

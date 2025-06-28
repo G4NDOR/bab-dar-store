@@ -1,0 +1,10 @@
+
+.order{
+    align-self: stretch;
+    display: flex;
+    margin: 12px 0px 12px 0px;
+    padding: 3px 10px 3px 10px;
+    border-top-style: solid;
+    justify-content: space-between;
+    cursor: pointer;
+}      
